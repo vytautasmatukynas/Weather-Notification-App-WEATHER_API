@@ -37,7 +37,7 @@ def send_sms(temp, wind):
         client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
         message = client.messages.create(
-            body=f'Today tempeture: {temp}C, wind speed: {wind}m/s.',
+            body=f'Todays tempeture: {temp}C, wind speed: {wind}m/s.',
             from_='+00000',
             to='+00000'
         )
