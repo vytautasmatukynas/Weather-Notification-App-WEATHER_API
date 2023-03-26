@@ -1,4 +1,4 @@
-# weather-notification-app-WEATHER-API
+# Weather-Notification-App-WEATHER_API
 
 Simple app that sends SMS and E-Mail about weather conditions.
 It uses data from "https://openweathermap.org/" - "Weather API".
